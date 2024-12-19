@@ -1,0 +1,148 @@
+html{
+    overflow: hidden;
+    margin: 0%; 
+    padding: 0%;
+    background-color: rgb(63, 2, 2);
+}
+boby{
+    margin: 0%; 
+    padding: 0%;
+   
+}
+.main{
+ width: 100vw;
+ height: 100vh;
+ position: relative;
+
+}
+.main1{
+width: 100vw;
+height: 100vh;
+position: absolute;
+left: 80px;
+top:7px;
+}
+.main2{
+width: 90vw;
+height: 50vh;
+position: absolute;
+top:100px;
+left:3vw;
+right:3vw;
+border: white 3px solid;
+border-radius:30px;
+}
+.main3{
+width: 80vw;
+left: 10vw;
+position: absolute;
+top: 100px;
+text-align: center;
+font-size: large;
+color: white;
+
+}
+.main4{
+position: absolute;
+right: 200px;
+top:20px;
+}
+#selete1{
+width: 70px;
+height: 30px;
+background-color: black;
+color: white;
+border: 2px white solid;
+border-radius: 15px;
+}
+
+.main5{
+    position: absolute;
+    top:350px;
+    width:90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main5 td{
+    padding-left: 50px;
+}
+    .sub51{
+     position: relative;
+     transition: all ease 0.3s;
+    }
+    .sub51:hover{
+        transform:scale(1.15);
+    }
+    .sub511{
+        position: absolute;
+        top:125px;
+        margin-left: 10%;
+        color: rgb(255, 255, 255);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .main6{
+        position:absolute;
+        top: 600px;
+        width: 90%;
+        left: 5%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        
+    }
+    .main6 input{
+ width: 200px;
+ height: 30px;
+ border: 3px rgb(67, 59, 59) solid;
+ border-radius: 20px;
+ 
+    }
+    .main6 button{
+        width: 100px;
+        height: 30px;
+        border: 2px white solid;
+        background-color: red;
+        border-radius: 20px;
+        color: white;
+    }
+#img2{
+width: 130px;
+
+
+}
+#img3{
+    width: 100%;
+    height:100%;
+    filter: brightness(40%);
+    border-radius: 30px;
+}
+
+.img5{
+    width: 130px;
+    height: 170px;
+    border: 2px white solid;
+    border-radius: 20px;
+}
+#btn{
+    /* Blue */
+    color: white;
+    width: 60px;
+    height:25px;
+    background-color: red;
+    position: absolute;
+    top:5px;
+    border: 2px white solid;
+    border-radius: 10px;
+   
+}
+#btn:hover{
+    background-color: #2745b1;
+    color: rgb(255, 255, 255); /* Darker blue */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#btn1:hover{
+        background-color: #2745b1;
+        color: rgb(255, 255, 255); /* Darker blue */
+        transition: background-color 0.3s ease, color 0.3s ease;
+}
